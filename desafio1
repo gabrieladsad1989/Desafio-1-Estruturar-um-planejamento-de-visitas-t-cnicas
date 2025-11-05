@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Cronograma de Visitas Técnicas - AeroTech Precision</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img {
+      width: 120px;
+      height: auto;
+    }
+    h1 {
+      color: #003366;
+    }
+    p {
+      max-width: 800px;
+      margin: 0 auto 20px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+    button {
+      background-color: #003366;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    button:hover {
+      background-color: #0055aa;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #e0e0e0;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Substitua o link abaixo pelo logo real -->
+    <img src="https://via.placeholder.com/120x80?text=Logo" alt="Logo AeroTech Precision">
+    <h1>AeroTech Precision</h1>
+    <p>
+      A <strong>AeroTech Precision</strong>, empresa com duas décadas de atuação no mercado e especializada na produção de componentes tecnológicos de alta precisão para o setor aeroespacial, busca fortalecer sua posição e criar novas oportunidades de negócio por meio de visitas técnicas a parceiros e potenciais clientes para venda de sua produção.
+    </p>
+  </header>
+
+  <button onclick="window.print()">🖨️ Imprimir ou Salvar em PDF</button>
+
+  <table>
+    <tr>
+      <th>Etapa / Horário</th>
+      <th>Atividade</th>
+      <th>Duração</th>
+      <th>Local / Área</th>
+      <th>Responsável</th>
+      <th>Observações</th>
+    </tr>
+    <tr>
+      <td>08h30</td>
+      <td>Chegada dos visitantes</td>
+      <td>30 min</td>
+      <td>Recepção</td>
+      <td>AeroTech - Assistente de Relações Corporativas</td>
+      <td>Welcome coffee e credenciamento</td>
+    </tr>
+    <tr>
+      <td>09h00</td>
+      <td>Apresentação Institucional</td>
+      <td>40 min</td>
+      <td>Auditório</td>
+      <td>Diretor Comercial</td>
+      <td>Uso de slides + imagens IA da produção</td>
+    </tr>
+    <tr>
+      <td>09h40</td>
+      <td>Tour 1 – Setor de Usinagem de Precisão</td>
+      <td>40 min</td>
+      <td>Planta 1</td>
+      <td>Eng. de Produção</td>
+      <td>Limite de 8 visitantes por grupo</td>
+    </tr>
+    <tr>
+      <td>10h20</td>
+      <td>Tour 2 – Controle de Qualidade e Metrologia 3D</td>
+      <td>30 min</td>
+      <td>Laboratório Técnico</td>
+      <td>Eng. de Qualidade</td>
+      <td>Demonstração de inspeção óptica</td>
+    </tr>
+    <tr>
+      <td>10h50</td>
+      <td>Intervalo / Coffee Break</td>
+      <td>20 min</td>
+      <td>Lounge Técnico</td>
+      <td>Equipe de apoio</td>
+      <td>Networking informal</td>
+    </tr>
+    <tr>
+      <td>11h10</td>
+      <td>Tour 3 – Montagem e Testes Funcionais</td>
+      <td>40 min</td>
+      <td>Planta 2</td>
+      <td>Supervisor de Produção</td>
+      <td>Mostra de testes de vibração e temperatura</td>
+    </tr>
+    <tr>
+      <td>11h50</td>
+      <td>Apresentação de Proposta Comercial</td>
+      <td>30 min</td>
+      <td>Auditório</td>
+      <td>Diretor Comercial</td>
+      <td>Imagens IA e vídeos integrados</td>
+    </tr>
+    <tr>
+      <td>12h20</td>
+      <td>Encerramento e Entrega de Materiais</td>
+      <td>10 min</td>
+      <td>Hall de Saída</td>
+      <td>Relações Corporativas</td>
+      <td>Brindes e catálogos técnicos</td>
+    </tr>
+  </table>
+
+  <footer>
+    © 2025 AeroTech Precision — Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
